@@ -1,0 +1,51 @@
+Ticker	Name
+MSFT	Microsoft Corp.
+AAPL	"Apple, Inc."
+AMZN	"Amazon.com, Inc."
+GOOG	"Alphabet, Inc."
+GOOGL	"Alphabet, Inc."
+FB	"Facebook, Inc."
+BRK.B	"Berkshire Hathaway, Inc."
+WMT	"Walmart, Inc."
+JNJ	Johnson & Johnson
+V	"Visa, Inc."
+JPM	JPMorgan Chase & Co.
+PG	Procter & Gamble Co.
+MA	"Mastercard, Inc."
+INTC	Intel Corp.
+UNH	"UnitedHealth Group, Inc."
+VZ	"Verizon Communications, Inc."
+HD	"The Home Depot, Inc."
+T	"AT&T, Inc."
+BAC	Bank of America Corp.
+DIS	The Walt Disney Co.
+MRK	"Merck & Co., Inc."
+KO	The Coca-Cola Co.
+PFE	Pfizer Inc.
+CSCO	"Cisco Systems, Inc."
+PEP	"PepsiCo, Inc."
+CMCSA	Comcast Corp.
+NFLX	"Netflix, Inc."
+NVDA	NVIDIA Corp.
+ORCL	Oracle Corp.
+XOM	Exxon Mobil Corp.
+ADBE	"Adobe, Inc."
+CRM	"salesforce.com, inc."
+COST	Costco Wholesale Corp.
+CVX	Chevron Corp.
+ABT	Abbott Laboratories
+MCD	McDonald's Corp.
+AMGN	"Amgen, Inc."
+WFC	Wells Fargo & Co.
+LLY	Eli Lilly & Co.
+PYPL	"PayPal Holdings, Inc."
+NKE	"NIKE, Inc."
+TMO	"Thermo Fisher Scientific, Inc."
+BMY	Bristol-Myers Squibb Co.
+MDT	Medtronic Plc
+NEE	"NextEra Energy, Inc."
+ACN	Accenture Plc
+ABBV	"AbbVie, Inc."
+PM	"Philip Morris International, Inc."
+TXN	Texas Instruments Incorporated
+CHTR	"Charter Communications, Inc."
