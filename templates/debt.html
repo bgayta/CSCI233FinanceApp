@@ -1,0 +1,67 @@
+<!-- Search Bar -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body{
+            margin:0;
+            padding:0;
+            height:100vh;
+            background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://www.streetwisereports.com/images/moneyup630.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+          }
+          h1 {
+            text-align: center;
+            color: #dec45b;
+            margin-bottom: 80px;
+            font-size: 50px;
+            letter-spacing: 1px;
+          }
+          .search-field{
+            
+            height: 25px;
+            padding: 10px;
+            width: 250px;
+          }
+
+          .search-year{
+            height: 25px;
+            padding: 10px;
+            width: 100px;
+          }
+          .search-btn{
+            height:50px;
+            width:150px;
+            background: #dec45b;
+            border: none;
+            color: #fff; 
+            font-weight: bold; 
+            font-size: 15px; 
+          }
+          .search-btn:hover {
+            background: #9c8a41;
+            cursor: pointer;
+          }
+          .formbox{
+            background: rgba(255,255,255,.5);
+            padding: 30px 50px;
+          }
+    </style>   
+    <body>
+        <h1>Total Debt 
+        <form class="example" method="post" action="" 
+         style="margin:auto;max-width:600px">
+            <input class="search-field" type="text" placeholder="Search company name, or type 'all'" name="company">
+            <input class="search-year" type="text" placeholder="Search year or all" name="year">
+            <button class="search-btn" type="submit">Get Data!</button>
+        </form>
+        </h1>
+        <br></br>
+        </body>
+    </head>
+    </html>

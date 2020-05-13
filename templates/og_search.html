@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <style>
+    body{
+      margin:0;
+      padding:0;
+    }
+    .header{
+      height:100vh;
+      background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://www.streetwisereports.com/images/moneyup630.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+    h1 {
+      text-align: center;
+      color: #d6b018;
+      margin-bottom: 100px;
+      font-size: 50px;
+      letter-spacing: 1px;
+    }
+    .search-field{
+      
+      height: 50px;
+      padding: 10px;
+      width: 400px;
+    }
+    .search-btn{
+      height:50px;
+      width:150px;
+      background: #dec45b;
+      border: none;
+      color: #fff; 
+    }
+    .search-btn:hover {
+      background: #9c8a41;
+      cursor: pointer;
+    }
+    .formbox{
+      background: rgba(255,255,255,.5);
+      padding: 30px 50px;
+    }
+    
+    .dropdown{ 
+      height:40px;
+      width:160px;
+      background:#caa307;
+      border: none;
+      color: white; 
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: normal; 
+      letter-spacing: 1px;
+      text-align-last: right;
+    }
+
+  </style>
+
+    <title>Financial Data Company Search</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <script type="text/javascript">
+      function selectMetric(){
+          var urlString = "http://127.0.0.1:5000/";
+          var metrics = document.getElementById('metrics');
+          var selectedMetric = metrics.options[metrics.selectedIndex];
+          if (selectedMetric.value != "nothing"){
+                  window.location = urlString + selectedMetric.value;
+          }
+      }
+      </script>
+  <body>
+      <div class="header">
+        <form>
+          <h1>Select Financial Metric
+            <br>
+            <select class = "dropdown" id="metrics" onchange="selectMetric()">
+              <option value="nothing">Select a metric</option>
+              <option value="ticker">Ticker</option>
+              <option value="assets">Assets</option>
+              <option value="liabilities">Liabilities</option>
+              <option value="EPS">EPS</option>
+              <option value="FCF">FCF</option>
+              <option value="revenue">Revenue</option>
+              <option value="equity">Equity</option>
+              <option value="netIncome">Net Income</option>
+              <option value="operatingIncome">Operating Income</option>
+              <option value="profitMargin">Profit Margin</option>
+              <option value="DPS">DPS</option>
+            </select>
+              </h1>
+            </div>
+        </form>
+  </body>
+</head>
+</html>
+  

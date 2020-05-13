@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+h1{
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Equity Results</title>
+</head>
+<body>
+<table id="Assets" style="width:100%">
+    <h1>Total Shareholders' Equity Results</h1>
+    <tr>
+        <th>Symbol</th>
+        <th>Company Name</th>
+        <th>Year</th>
+        <th>Total Shareholders' Equity</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+        <td> {{row[0]}}</td>
+        <td> {{row[1]}}</td>
+        <td> {{row[2]}}</td>
+        <td> {{row[3]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

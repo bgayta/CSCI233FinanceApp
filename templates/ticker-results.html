@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+h1{
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Ticker Results</title>
+</head>
+<body>
+<table id="Tickers" style="width:100%">
+    <h1>Stock Symbol (Ticker) Results</h1>
+    <tr>
+        <th>Company Name</th>
+        <th>Symbol</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+        <td> {{row[0]}}</td>
+        <td> {{row[1]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
